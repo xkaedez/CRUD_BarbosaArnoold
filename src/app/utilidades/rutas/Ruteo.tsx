@@ -11,7 +11,7 @@ export const Ruteo = () => {
   return (
     <Routes>
       <Route path="/" element={<Inicio />} />
-
+      
       <Route path="/cancre" element={< CancionCrear/>}/>
       <Route path="/canlis" element={< CancionListar/>}/>
       <Route path="/canadmin" element={< CancionAdmin/>}/>

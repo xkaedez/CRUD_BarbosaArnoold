@@ -44,7 +44,7 @@ export const Cabecera = () => {
                 >
                   Canciones
                 </a>
-                <ul className="dropdown-menu show" data-bs-popper="static">
+                <ul className="dropdown-menu" data-bs-popper="static">
                   <li>
                     <NavLink className="dropdown-item" to="/cancre">
                       Registrar canciones

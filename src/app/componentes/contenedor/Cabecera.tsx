@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import miLogo from "../../../assets/img/logoReact.png"
+import miLogo from "../../../assets/img/icons8-headphones-80.png"
 
 export const Cabecera = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <img src={miLogo} alt="El logo" />
@@ -32,8 +32,6 @@ export const Cabecera = () => {
                   Compositores
                 </NavLink>
               </li>
-
-
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle show"
@@ -65,14 +63,12 @@ export const Cabecera = () => {
                   </li>
                 </ul>
               </li>
-
               <li className="nav-item">
                 <NavLink className="nav-link" to="/acer">
                   Acerca de
                 </NavLink>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>
